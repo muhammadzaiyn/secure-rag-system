@@ -1,0 +1,14 @@
+{
+  "alice": {
+    "role": "finance",
+    "allowed_categories": ["finance", "general"]
+  },
+  "bob": {
+    "role": "hr",
+    "allowed_categories": ["hr", "general"]
+  },
+  "admin": {
+    "role": "admin",
+    "allowed_categories": ["finance", "hr", "general"]
+  }
+}

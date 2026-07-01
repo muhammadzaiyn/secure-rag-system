@@ -1,0 +1,25 @@
+# --- Secrets ---
+.env
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# --- Data (generated at runtime, not source) ---
+data/vector_store/*
+!data/vector_store/.gitkeep
+data/documents/*.pdf
+!data/documents/.gitkeep
+data/rag_logs.db
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
