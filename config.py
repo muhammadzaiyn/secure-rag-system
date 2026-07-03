@@ -59,7 +59,7 @@ TOP_K_RESULTS = 5
 # ---------------------------------------------------------------------------
 # Guardrails
 # ---------------------------------------------------------------------------
-TOXICITY_MODEL_NAME = "martin-ha/toxic-comment-model"
+TOXICITY_MODEL_NAME = "unitary/toxic-bert"
 TOXICITY_THRESHOLD = 0.7
 INJECTION_LLM_THRESHOLD = 0.6
 
